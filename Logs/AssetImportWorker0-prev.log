@@ -1,0 +1,387 @@
+Unity Editor version:    2021.3.10f1 (1c7d0df0160b)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.6 (Build 21G115)
+Darwin version:          21.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/phuongdoantuminh/Projects/FlappyBird
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52805
+Successfully changed project path to: /Users/phuongdoantuminh/Projects/FlappyBird
+/Users/phuongdoantuminh/Projects/FlappyBird
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 102.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/phuongdoantuminh/Projects/FlappyBird/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: AMD Radeon Pro 555X (high power)
+Metal devices available: 2
+0: AMD Radeon Pro 555X (high power)
+1: Intel(R) UHD Graphics 630 (low power)
+Using device AMD Radeon Pro 555X (high power)
+Initializing Metal device caps: AMD Radeon Pro 555X
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56146
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.10f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000867 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 102.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.783 seconds
+Domain Reload Profiling:
+	ReloadAssembly (783ms)
+		BeginReloadAssembly (69ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (587ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (132ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (367ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (103ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (198ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003382 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/phuongdoantuminh/Projects/FlappyBird/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/phuongdoantuminh/Projects/FlappyBird/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 107.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.392 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1393ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (1148ms)
+			LoadAssemblies (119ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (316ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (567ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (107ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (298ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4068 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (209.5 KB). Loaded Objects now: 4518.
+Memory consumption went from 263.4 MB to 263.2 MB.
+Total: 3.992888 ms (FindLiveObjects: 0.388287 ms CreateObjectMapping: 0.358557 ms MarkObjects: 3.075892 ms  DeleteObjects: 0.169375 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 18642.779728 seconds.
+  path: Assets/flappybird.png
+  artifactKey: Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/flappybird.png using Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108c0584b184ab8ade8af3c4b360e900') in 1.172121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.486744 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.001593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 101.415999 seconds.
+  path: Assets/flappybird.png
+  artifactKey: Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/flappybird.png using Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09dc33c0df2fff23fd5f3e667cec7c8d') in 0.011963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 136.460716 seconds.
+  path: Assets/flappybird.png
+  artifactKey: Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/flappybird.png using Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dd48ea979e207467c6eabbba060d70b') in 0.015469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.246135 seconds.
+  path: Assets/flappybird.png
+  artifactKey: Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/flappybird.png using Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecd69b0656036ee742d62697b40abd44') in 0.040793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.673335 seconds.
+  path: Assets/flappybird.png
+  artifactKey: Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/flappybird.png using Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b776f1ecbbc0ba8e95b6f3fadde3f1e5') in 0.046328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.894538 seconds.
+  path: Assets/flappybird.png
+  artifactKey: Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/flappybird.png using Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3e0f4fef89388ca66d68f5be28299d1') in 0.052980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.451098 seconds.
+  path: Assets/flappybird.png
+  artifactKey: Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/flappybird.png using Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb392d14941b0305a75c285574248f6') in 0.055366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.396229 seconds.
+  path: Assets/flappybird.png
+  artifactKey: Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/flappybird.png using Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27704007125347a0bc8c87ae39686225') in 0.060964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.889991 seconds.
+  path: Assets/flappybird.png
+  artifactKey: Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/flappybird.png using Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '315c68b7b66c4d8b14251e83a3557c52') in 0.063780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.368435 seconds.
+  path: Assets/flappybird.png
+  artifactKey: Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/flappybird.png using Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f46f29ddc03d6625ca2f6645195fcc5') in 0.064688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.859969 seconds.
+  path: Assets/flappybird.png
+  artifactKey: Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/flappybird.png using Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b68eecd818436b13f99907e9333d11d') in 0.068433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.491510 seconds.
+  path: Assets/flappybird.png
+  artifactKey: Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/flappybird.png using Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1082c9e14f7702f595de6cbaed22362') in 0.080727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.718755 seconds.
+  path: Assets/flappybird.png
+  artifactKey: Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/flappybird.png using Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59a29f7d2630d3a8e0e7af56c9563a0d') in 0.077216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.433640 seconds.
+  path: Assets/flappybird.png
+  artifactKey: Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/flappybird.png using Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d5ad8a20eff8123dde14903fb09999') in 0.085358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.080746 seconds.
+  path: Assets/flappybird.png
+  artifactKey: Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/flappybird.png using Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0572829af080a07c583618f0e32a1265') in 0.079668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.085678 seconds.
+  path: Assets/flappybird.png
+  artifactKey: Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/flappybird.png using Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e515cae0ff1bfca50f9e05d298820001') in 0.083418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.698605 seconds.
+  path: Assets/flappybird.png
+  artifactKey: Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/flappybird.png using Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e45a039fa44025e856b4f1e1489963ad') in 0.098318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.705236 seconds.
+  path: Assets/flappybird.png
+  artifactKey: Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/flappybird.png using Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc4e09221c9383ade1d1ab1df3f9e17') in 0.093592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.026065 seconds.
+  path: Assets/flappybird.png
+  artifactKey: Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/flappybird.png using Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189ef42d56f3901c0d7d8e29c45dfb1f') in 0.094163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.904176 seconds.
+  path: Assets/flappybird.png
+  artifactKey: Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/flappybird.png using Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '825f0ca5d343080f91ddf73de52d0a6b') in 0.098023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 212.804688 seconds.
+  path: Assets/flappybird.png
+  artifactKey: Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/flappybird.png using Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a72c01575b9c5da377a3463030b882fd') in 0.100465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.157625 seconds.
+  path: Assets/flappybird.png
+  artifactKey: Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/flappybird.png using Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e847eb605376daab2cda1ba7893a347e') in 0.116330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 996.772723 seconds.
+  path: Assets/flappybird.png
+  artifactKey: Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/flappybird.png using Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd52fbf27534089109edaeb7d5dd5db6') in 0.159947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 307.333015 seconds.
+  path: Assets/flappybird.png
+  artifactKey: Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/flappybird.png using Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e2a793e1715990c711bb97ae36ed1d8') in 0.191259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.512990 seconds.
+  path: Assets/flappybird.png
+  artifactKey: Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/flappybird.png using Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdc906e1e849ee16d8ef8040b3097e88') in 0.201836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.201490 seconds.
+  path: Assets/flappybird.png
+  artifactKey: Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/flappybird.png using Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0bf09d27b1585e6e12b42481e5e645c') in 0.201246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.607830 seconds.
+  path: Assets/flappybird.png
+  artifactKey: Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/flappybird.png using Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b403e396baed72c66c2482281e8c656c') in 0.217589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.947316 seconds.
+  path: Assets/flappybird.png
+  artifactKey: Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/flappybird.png using Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cf58500db386e7db0e632967502ea58') in 0.254486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 138.141292 seconds.
+  path: Assets/flappybird.png
+  artifactKey: Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/flappybird.png using Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac5188f1c5bf4809117dc51bbb2153d') in 0.229017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 119.971962 seconds.
+  path: Assets/flappybird.png
+  artifactKey: Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/flappybird.png using Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bcba37c241ec35901d96c078c2c9f90') in 0.250392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 53.916072 seconds.
+  path: Assets/flappybird.png
+  artifactKey: Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/flappybird.png using Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e6933c2f116566f1be1250c7cd66a4') in 0.218514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 92.765053 seconds.
+  path: Assets/flappybird.png
+  artifactKey: Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/flappybird.png using Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cdc2785deab431e0937ec4d66958889') in 0.255522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.886866 seconds.
+  path: Assets/flappybird.png
+  artifactKey: Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/flappybird.png using Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a395e984e2f3a94722f60de7ea843388') in 0.282296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 65.372940 seconds.
+  path: Assets/flappybird.png
+  artifactKey: Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/flappybird.png using Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86dee9e4223b443d7225f3698d20b8d4') in 0.256221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.907646 seconds.
+  path: Assets/flappybird.png
+  artifactKey: Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/flappybird.png using Guid(2b45d17948c624544b3c52397828624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '284ef41a90074d0c2f205284eac2fe07') in 0.309583 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
