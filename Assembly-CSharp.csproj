@@ -38,6 +38,7 @@
   <ItemGroup>
      <Compile Include="Assets/FlyLittleBird.cs" />
      <Compile Include="Assets/Move.cs" />
+     <Compile Include="Assets/PipeSpawner.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

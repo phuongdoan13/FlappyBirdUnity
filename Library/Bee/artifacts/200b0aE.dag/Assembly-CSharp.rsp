@@ -376,6 +376,7 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/FlyLittleBird.cs"
 "Assets/Move.cs"
+"Assets/PipeSpawner.cs"
 -langversion:9.0
 
 /deterministic
