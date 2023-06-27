@@ -36,11 +36,12 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets/Score.cs" />
+     <Compile Include="Assets/GameManager.cs" />
      <Compile Include="Assets/FlyLittleBird.cs" />
+     <Compile Include="Assets/AddScore.cs" />
      <Compile Include="Assets/Move.cs" />
      <Compile Include="Assets/PipeSpawner.cs" />
-     <Compile Include="Assets/GameManager.cs" />
-     <Compile Include="Assets/score.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
